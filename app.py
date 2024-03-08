@@ -9,7 +9,7 @@ def load_animation(url):
         return None
     return r.json()
 lottie_gaming = "https://lottie.host/fbc3c057-8426-42b1-b9b9-706346bf4d48/QFbYWGyOVk.json"
-image_val = Image.open("C:\Users\rosan\PycharmProjects\pythonProject\pythonProject\images\Valarie gaming.png")
+image_val = Image.open("C:\val\images\Valarie gaming.png")
 
 with st.container():
     st.subheader(" 💕'Welcome to Valarie Gaming world'💕 ")
