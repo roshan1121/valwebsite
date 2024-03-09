@@ -9,7 +9,6 @@ def load_animation(url):
         return None
     return r.json()
 lottie_gaming = "https://lottie.host/fbc3c057-8426-42b1-b9b9-706346bf4d48/QFbYWGyOVk.json"
-image_val = Image.open("C:/val/images/Valarie gaming.png")
 
 with st.container():
     st.subheader(" 💕'Welcome to Valarie Gaming world'💕 ")
@@ -40,26 +39,22 @@ with right_column:
 st.write("---")
 st.subheader("Our games")
 st.write("##")
-img_column, txt_column = st.columns((1,2))
-with img_column:
-    st.image(image_val)
 
-with txt_column:
-    st.write('''
-    - 🔥 [FireKirin>](http://start.firekirin.xyz:8580/index.html)
-    - 🌌 [MilkyWay>](https://milkywayapp.xyz/)
-    - 🌟 [OrionStars>](http://start.orionstars.vip:8580/index.html)
-    - 🐼 [PandaMaster>](https://pandamaster.vip:8888/)
-    - 🕹 [GameVault>](https://download.gamevault999.com/)
-    - 🌀 [Juwa>](https://dl.juwa777.com/)
-    ''')
-    st.write('''
-    - 🆕 New Big Promos Every Week! Stay Tuned for Exciting Offers!
-    - 💸 No Minimum Deposits! Start Playing with Any Amount!
-    - 💵 Minimum Cash out: \$35, Maximum: \$300 within 24 Hours! Get Your Winnings Fast!
-    - 🔞 18+ Only. Terms and conditions apply.
-    
-    
-    Don't Miss Out on the Ultimate Gaming Experience at Valarie Gaming! Join Now and Win Big! 
-    💥Your Ultimate Destination for Non-Stop Fun and Big Wins!
-    ''')
+st.write('''
+- 🔥 [FireKirin>](http://start.firekirin.xyz:8580/index.html)
+- 🌌 [MilkyWay>](https://milkywayapp.xyz/)
+- 🌟 [OrionStars>](http://start.orionstars.vip:8580/index.html)
+- 🐼 [PandaMaster>](https://pandamaster.vip:8888/)
+- 🕹 [GameVault>](https://download.gamevault999.com/)
+- 🌀 [Juwa>](https://dl.juwa777.com/)
+''')
+st.write('''
+- 🆕 New Big Promos Every Week! Stay Tuned for Exciting Offers!
+- 💸 No Minimum Deposits! Start Playing with Any Amount!
+- 💵 Minimum Cash out: \$35, Maximum: \$300 within 24 Hours! Get Your Winnings Fast!
+- 🔞 18+ Only. Terms and conditions apply.
+
+
+Don't Miss Out on the Ultimate Gaming Experience at Valarie Gaming! Join Now and Win Big! 
+💥Your Ultimate Destination for Non-Stop Fun and Big Wins!
+''')
